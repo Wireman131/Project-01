@@ -1,7 +1,7 @@
 <?php
 /**
- * Anthony Gaudio
- * ANM293 - Advanced PHP
+ * @author Anthony Gaudio
+ * @category ANM293 - Advanced PHP
  * Project 01
  * Gitting to know Git
  */
@@ -9,7 +9,8 @@ ob_start();
 /*
  * Start output buffering
  * This means to 'capture' everything in the buffer and don't immediately
- * send it to the browser.
+ * send it to the browser. If a parameter is passed, it will specify the 
+ * callback function.
  */
 
 echo 'My First Project with Output Buffering';
@@ -22,7 +23,7 @@ $v = ob_get_contents();
  */
 ob_end_clean();
 /*
- * clean, or empty the buffer
+ * clean, or empty the buffer without sending it to the browser
  * 
  */
 echo $v;
