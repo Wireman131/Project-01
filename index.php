@@ -4,7 +4,8 @@
  * @category ANM293 - Advanced PHP
  * Project 01
  * Gitting to know Git
- * @todo try to push with https
+ * Succesfully pushed project, deleted local files and cloned from
+ * Github back to local to restore local files.
  */
 ob_start();
 /*
